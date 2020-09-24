@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
        setsolve = setsolve,
        getsolve = getsolve)
 }
-##
+## For inversed matrix
 ## Same here, changed "mean" to "solve" and "m" to "s"
 cacheSolve <- function(x, ...) {
   s <- x$getsolve()
